@@ -8,10 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit{
 
   @Input()
-  photoCover:string = "https://richestsoft.com/blog/wp-content/uploads/2022/12/What-is-Angular.webp"
+  photoCover:string = ""
   
   @Input()
-  cardTitle:string = "Quer conhecer mais sobre o Angular"
+  cardTitle:string = ""
+
+  @Input()
+  Id:string = "0"
 
   constructor() {}
 
